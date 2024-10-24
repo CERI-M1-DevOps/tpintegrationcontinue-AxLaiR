@@ -9,7 +9,7 @@ jobs:
         with:
           distribution: 'corretto'
           java-version: '21'
-      - name: Package
+      - name: Package Mvn
         run: mvn -B package
       - name: SonarConnect
         env: 
